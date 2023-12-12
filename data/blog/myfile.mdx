@@ -1,0 +1,197 @@
+---
+title: Eventually
+date: '2023-12-12'
+tags: ['hugo', 'hugo-theme', 'prelaunch', 'responsive', 'html5up-port']
+draft: false
+summary: 'Eventually is a simple responsive website launching hugo theme ported from an html5 up template features customizable parameters such as page title, descriptions, and social media links.'
+images: ['/static/images/twitter-card.png']
+
+---
+
+## Introduction
+
+Introducing `Eventually`, a sleek and responsive one-page `pre-launching` site template meticulously crafted for Hugo. Derived from HTML5 UP's acclaimed design, this template offers easy customization, allowing you to tailor your landing page with personalized parameters. 
+
+Dive into our quick guide for seamless installation, configuration, and effortless slider image updates. Explore the live demo at www.thirdbracket.co.uk to witness the template in action. Unveil your next big thing with style, as 'Eventually' combines simplicity and elegance. Crafted by Musabbir Sagar, this template is released under the CC BY 3.0 license, bringing a touch of modernity to your Hugo-powered site.
+
+<TOCInline toc={props.toc} exclude="Introduction" />
+
+## Live Demo
+
+[![hugo-eventually](https://raw.githubusercontent.com/sagarmusabbir/Eventually/master/images/screenshot.png "Screenshot")](https://thirdbracket.co.uk)
+
+
+Right now I am using the theme for my web solution company [Third Bracket](thirdbracket.co.uk). Explore the live demo at [Here](www.thirdbracket.co.uk) to witness the template in action. Unveil your next big thing with style, as 'Eventually' combines simplicity and elegance. 
+
+
+
+
+ - **Off-topic:** I started a web solution agency called [Third Bracket](thirdbracket.co.uk). I will develop 50 startup business websites in a campaign where I will charge nothing except the Domain and Hosting cost. For passionate entrepreneurs who cannot afford to build a professional website due to budget constraints, Third Bracket will provide a completely free solution to ensure their ideas can spread worldwide. Simply go to the [Link](thirdbracket.co.uk) and drop your email address for the free website, and we will contact you via email for the necessary information.
+
+
+
+Pre-launching a website is vital for testing, optimizing performance, fine-tuning SEO, ensuring security, and building anticipation. It allows for content review, gathers valuable feedback, and sets goals for a successful and impactful launch.
+
+
+
+## Features
+The main features of the 'Eventually' Hugo theme include:
+
+1. **Sleek and Responsive Design:** Crafted for Hugo, this one-page pre-launching site template boasts a sleek and responsive design, ensuring an optimal user experience across devices.
+    
+2. **Easy Customization:** Derived from HTML5 UP's renowned design, 'Eventually' allows for easy customization, enabling users to tailor their landing page with personalized [parameters](https://gohugo.io/methods/page/param/). This includes adjustable fields for the page title, small descriptions, and social media links.
+
+3. **Variable Parameters:** The theme incorporates variable [parameters](https://gohugo.io/methods/page/param/), such as page title, small descriptions, and links to social media platforms (Twitter, Instagram, GitHub, and email).
+    
+4. **Simple Installation:** The theme can be easily installed by running a few commands inside the folder of the Hugo site, providing a quick setup for users.
+    
+5. **Configuration Options:** Users can configure the theme by copying the provided `config.toml` file and customizing the fields as needed. This includes adjusting the [base URL](https://gohugo.io/getting-started/configuration/#baseurl), adding or deleting social media links, and incorporating personal information.
+    
+6. **Slider Image Updates:** Changing the background slides is made simple by changing the existing `bg01.jpg`, `bg02.jpg`, `bg03.jpg` images `themes/eventually/static/images` folder.
+
+## Why Hugo
+
+Among all the other Static Site Generators I chose Hugo for a reason. Hugo is exceptionally fast in [content-based web development](#), providing rapid 'build times' and efficient rendering of static websites. Its speed is attributed to its use of ['Go' programming language](https://en.wikipedia.org/wiki/Go_(programming_language)) and its focus on delivering quick, high-performance results for content-driven sites.
+
+Hugo is build Built with Go, providing a different technology stack compared to the [JavaScript-based React frameworks](#). It is primarily a static site generator, which pre-renders pages at build time, resulting in fast-loading, efficient websites. In a very short span of time Hugo established its identity for exceptional speed due to its simplicity and focus on [static site generation](https://en.wikipedia.org/wiki/Static_site_generator).
+
+
+## Markdown First
+
+From now on my  primary focus will be on writing content using the [Markdown](https://en.wikipedia.org/wiki/Markdown) markup language before considering other formatting or styling concerns. Markdown is a lightweight markup language that uses plain text formatting syntax to create structured documents. The [Markdown first](#) philosophy encourages me to focus on the content itself, using simple and easy-to-write plain text with minimal distractions. 
+
+Once the content is written and structured using 'Markdown', it can be later converted into various formats, such as [HTML](https://en.wikipedia.org/wiki/HTML), for presentation on the web or other mediums. 
+
+This approach is particularly popular in scenarios where content is intended for digital platforms, blogs, documentation, or collaborative writing environments. [Markdown's simplicity](#) allows for quick and efficient writing without the need for extensive formatting knowledge, and it also ensures content is easily portable and can be adapted to different platforms and styles.
+
+## Go Lang
+
+'Go' is designed for simplicity and readability, minimizing complex syntax and providing a clean and concise language structure. Go has 'built-in' support for concurrent programming, making it easy to create efficient and concurrent applications. Go offers fast 'compilation times', enabling quick development cycles and efficient deployment of applications.
+    
+Automatic [garbage collection](https://chayandatta.medium.com/garbage-collection-in-go-959b4c164c42) simplifies 'memory management', reducing the risk of memory leaks and improving developer productivity. Go is [statically typed](https://en.wikipedia.org/wiki/Category:Statically_typed_programming_languages), providing strong type-checking at `compile-time` for increased code reliability. Go includes a testing framework as part of its standard library, promoting test-driven development practices.
+    
+**Basic Go Code Structure:**
+
+```go
+
+package main
+import  "fmt"  
+func main() { 
+// Entry point of the program
+fmt.Println("Hello, Golang!") 
+}
+
+```
+
+## Quick Start
+
+If you have not installed hugo [here](https://gohugo.io/installation/) is the official documentation you can follow. This guide assumes that you have installed hugo in your local machine and [created hugo site](https://gohugo.io/getting-started/quick-start/#create-a-site) from the command line with 'hugo new site sitename'.
+To integrate the [Hugo theme](hugo.io/themes) into your Hugo site, follow these step-by-step instructions:
+
+### Install
+
+Open your command-line interface and move to the `themes` directory within your Hugo site. Use the following command to clone the 'Eventually' theme from the GitHub repository.
+    
+ ```bash 
+    $ cd themes
+    $ git clone https://github.com/sagarmusabbir/Eventually.git 
+```   
+    
+### Configure
+
+-   Copy the `config.toml` file from the `exampleSite` folder into the root folder of your Hugo site.
+-   Change the fields as needed, ensuring to modify the baseurl.
+-   Add or delete social media links as required.
+-   Look up [Font Awesome](http://fontawesome.io/) icon names for customization.
+-   Add personal information to the configuration file.
+
+Example Configuration:
+```config.toml
+[params]
+pagetitle = 'EVENTUALLY'
+description1 = 'A simple Hugo theme for telling the world when you will launch your next big thing.'
+description2 = 'This is an HTML5UP.NET template ported by MUSABBIRSAGAR.COM'
+twitter = 'https://twitter.com/#'
+instagram = 'https://instagram.com/#'
+github = 'https://twitter.com/'
+email = 'https://twitter.com/'
+
+```
+Changes in the configuration file gets propagated to the components automatically. No modification to the template is required.
+    
+
+    
+### Set Up the Theme
+
+After installation and configuration, you're ready to set up the 'Eventually' theme for your Hugo site. Execute the following command to get started. This command will build and run your Hugo site locally with the 'Eventually' theme.
+    
+    
+```bash
+    $ hugo server -D 
+ ```
+  
+### Preview the Site
+
+Open your web browser and visit `http://localhost:1313` to preview your Hugo site with the 'Eventually' theme.
+    
+By following these steps, you should have successfully installed and configured the 'Eventually' Hugo theme for your pre-launching site. Adjust the content, customize the theme further, and explore the live demo to unleash the full potential of this sleek and responsive template.
+
+
+### Parameters
+
+Following params are used for the theme.
+
+**pagetitle**  
+
+    - Description: A variable representing the page title for the landing page.
+    - Usage: Positioned at the top of the landing page, providing a title for the site.
+
+**description1**
+    
+    - Description: A variable for a small description.
+    - Usage: Intended for a concise and informative description on the landing page.
+
+**description2**
+    
+    - Description: Another variable for a small description.
+    - Usage: Offers additional space for a brief description, potentially used for supplementary information.
+
+**twitter**
+    
+    - Description: A variable for the Twitter social media link.
+    - Usage: Allows customization of the Twitter link associated with the theme.
+
+**instagram**
+    
+    - Description: A variable for the Instagram social media link.
+    - Usage: Permits customization of the Instagram link associated with the theme.
+
+**github**
+    
+    - Description: A variable for the GitHub social media link.
+    - Usage: Provides the ability to customize the GitHub link associated with the theme.
+
+**email**
+    
+    - Description: A variable for the Email social media link.
+    - Usage: Enables customization of the email link associated with the theme.
+
+
+
+### Changing the Sliders
+
+-   To alter background slides, go to theme directory `/themes/eventually/static/images` folder.
+-   Change pictures named `bg01.jpg`, `bg02.jpg`, `bg03.jpg`.
+
+
+## Conclusion
+
+I hope you enjoy the new theme. If you have any feedback or suggestions, feel free to open an issue or reach out to me on [Github](https://github.com/sagarmusabbir/Eventually).
+
+## Support
+
+Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on social media platforms.
+
+## Licence
+
+The theme is released under the CC BY 3.0 license. For details, refer to [License](https://github.com/sagarmusabbir/Eventually/blob/master/LICENSE.md).
